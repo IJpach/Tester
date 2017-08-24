@@ -61,7 +61,7 @@ public class Main extends AppCompatActivity {
 
         WebWindow = (WebView) findViewById(R.id.WebWindow);
         WebWindow.setWebViewClient(new WebViewClient());
-        WebWindow.getSettings().setJavaScriptEnabled(false);
+        WebWindow.getSettings().setJavaScriptEnabled(true);
         EnteredURL = (EditText) findViewById(R.id.EnteredURL);
         EnterButton = (Button) findViewById(R.id.EnterButton);
 
