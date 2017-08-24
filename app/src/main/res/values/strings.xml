@@ -7,4 +7,6 @@
     <string name="enter_url">Enter URL</string>
     <string name="enter">Enter</string>
     <string name="Closeapp">Enter</string>
+    <string name="another_button">Another Button</string>
+    <string name="text">Text</string>
 </resources>

@@ -16,22 +16,6 @@
             android:name=".Main"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter android:label="@string/filter_title_viewgizmos">
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data android:scheme="http"
-                    android:host="www.example.com"
-                    android:pathPrefix="/gizmos" />
-                <!-- note that the leading "/" is required for pathPrefix-->
-                <!-- Accepts URIs that begin with "example://gizmos” -->
-                <data android:scheme="example"
-                    android:host="gizmos" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service
