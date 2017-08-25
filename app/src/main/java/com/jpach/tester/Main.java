@@ -30,7 +30,7 @@ public class Main extends AppCompatActivity {
     public EditText EnteredURL;
     public FloatingActionButton Closeapp;
 
-    //this is just a test pushed from the pc in the first floor using android studio
+    //this is just a test pushed from the pc in the first floor using android studio.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
